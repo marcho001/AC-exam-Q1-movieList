@@ -85,7 +85,7 @@
 
     for (item in list) {
       listContent += `
-        <a href="#" class="list-group-item list-group-item-action" data-id=${i}>${list[item]}</a>
+        <a href="#" class="col-12 list-group-item list-group-item-action" data-id=${i}>${list[item]}</a>
       `
       i++
     }
